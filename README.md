@@ -4,10 +4,15 @@ Quiz Generator - CIS376
 The Quiz Generator enables users to:
 
 
-
+---
 Technologies used are:
-
-
+-  React (Single Page App)
+-  JavaScript
+-  localStorage (for saving user data)
+-  jsPDF (for exporting quiz results)
+-  HTML/CSS
+-  React Router
+---
 Features:
 
 ---
