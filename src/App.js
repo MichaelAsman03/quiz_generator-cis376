@@ -5,7 +5,8 @@ import CreateQuiz from "./pages/CreateQuiz";
 import TakeQuiz from "./pages/TakeQuiz";
 import Results from "./pages/Results";
 import SavedDrafts from "./pages/SavedDrafts";
-import "./global.css";
+import './global.css';
+
 
 export default function App() {
   return (
