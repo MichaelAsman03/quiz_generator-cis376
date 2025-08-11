@@ -19,7 +19,6 @@ export default function Results(){
             <li>Q1 – Correct</li>
             <li>Q2 – Incorrect</li>
             <li>Q3 – Correct</li>
-            {/* ... */}
           </ul>
         </div>
 
@@ -33,11 +32,11 @@ export default function Results(){
   );
 }
 
-function Stat({label, value}){
+function Stat({label,value}){
   return (
     <div className="panel" style={{flex:"1 1 220px", textAlign:"center"}}>
       <div className="muted" style={{marginBottom:6}}>{label}</div>
-      <div style={{fontSize:28, fontWeight:800}}>{value}</div>
+      <div style={{fontSize:28,fontWeight:800}}>{value}</div>
     </div>
   );
 }

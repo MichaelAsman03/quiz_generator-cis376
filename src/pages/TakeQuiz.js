@@ -3,7 +3,7 @@ export default function TakeQuiz(){
     <div className="container">
       <div className="panel">
         <div className="h-spread">
-          <h1 className="h1">Take a quiz</h1>
+          <h1 className="h1">Take a Quiz</h1>
           <span className="muted">Time left: 09:58</span>
         </div>
 
