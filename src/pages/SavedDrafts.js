@@ -1,10 +1,10 @@
-export default function SavedDrafts(){
+export default function SavedDrafts() {
   return (
     <div className="container">
-      <div className="panel">
-        <h1 className="h1">Saved Drafts</h1>
-        <p className="muted">Draft quizzes stored in your browser will appear here.</p>
-      </div>
+      <section className="panel">
+        <h1>Saved Drafts</h1>
+        <p>Continue editing your saved quizzes or start a new one.</p>
+      </section>
     </div>
   );
 }
