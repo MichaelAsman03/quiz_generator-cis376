@@ -1,15 +1,15 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+export default function Navbar(){
   return (
-    <nav style={{ padding: '10px', backgroundColor: '#f0f4f8' }}>
-      <Link to="/" style={{ margin: '0 10px' }}>Home</Link>
-      <Link to="/create" style={{ margin: '0 10px' }}>Create Quiz</Link>
-      <Link to="/quiz" style={{ margin: '0 10px' }}>Take Quiz</Link>
-      <Link to="/results" style={{ margin: '0 10px' }}>Results</Link>
-    </nav>
+    <header className="nav">
+      <div className="nav-inner">
+        <NavLink to="/" className="brand">Quiz Generator</NavLink>
+        <NavLink to="/create">Create Quiz</NavLink>
+        <NavLink to="/quiz">Take Quiz</NavLink>
+        <NavLink to="/results">Results</NavLink>
+        <NavLink to="/drafts">Saved Drafts</NavLink>
+      </div>
+    </header>
   );
-};
-
-export default Navbar;
+}
