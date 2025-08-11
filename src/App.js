@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 function Home()  { return <h2>Home OK</h2>; }
 function Create(){ return <h2>Create OK</h2>; }
