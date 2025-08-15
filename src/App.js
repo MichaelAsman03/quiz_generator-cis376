@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import CreateQuiz from "./pages/CreateQuiz";
@@ -7,10 +7,9 @@ import Results from "./pages/Results";
 import SavedDrafts from "./pages/SavedDrafts";
 import './global.css';
 
-
 export default function App() {
   return (
-    <Router>
+    <>
       <Navbar />
       <div className="content">
         <Routes>
@@ -21,6 +20,6 @@ export default function App() {
           <Route path="/drafts" element={<SavedDrafts />} />
         </Routes>
       </div>
-    </Router>
+    </>
   );
 }
